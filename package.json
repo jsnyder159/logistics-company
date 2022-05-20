@@ -1,0 +1,27 @@
+{
+  "name": "logistics-company",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit1",
+    "start": "node server.js",
+    "seed": "node seeds/index",
+    "dev": "nodemon server.js"
+  },
+
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.2"
+  },
+
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
